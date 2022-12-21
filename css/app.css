@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*selector universal*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #707070;
+    border-top: 8px solid #e16d65;
+}
+
+header {
+    height: 110px;
+    display: flex;
+}
+
+#top {
+
+    height: 50px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+
+}
+
+#brand {
+    color: #e16d65;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+#top nav {}
+
+#top nav a {
+    text-decoration: none;
+    margin: 0px 3px;
+    color: #707070;
+    padding: 3px;
+    background-color: #fdefee;
+}
+
+/*para que cambie de color cuando paso el cursor*/
+#top nav a:hover {
+    color: #e16d65;
+}
+
+
+#hero {
+    height: 350px;
+    /*iamgen de fondo*/
+    background-image: url(../img/pink-desk.webp);
+    background-repeat: no-repeat;
+    /*no genera mosaico*/
+    background-color: #e16d65;
+    background-position: center center;
+    -webkit-animation-size: cover;
+    background-size: cover;
+    /*agranda o achica la imagen*/
+    /*contenido del texto*/
+    text-align: center;
+    line-height: 350px;
+    color: rgb(247, 245, 243);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+main {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    /*respeta los anchos*/
+    width: 900px;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 52px 0px;
+}
+
+/*contenido de sección fullstack*/
+.fullstack h2 img {
+    width: 20px;
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+}
+
+.fullstack p {
+    /*interlineado*/
+    line-height: 18px;
+    text-align: justify;
+
+}
+
+.fullstack h2 {
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    padding-left: 26px;
+    margin-bottom: 15px;
+}
+
+.fullstack {
+    box-shadow: 0px 0px 4px #d19691;
+    border-radius: 10px;
+    width: 400px;
+    padding: 16px;
+    margin: 10px 0px;
+}
+
+.fullstack:hover {
+    box-shadow: 0px 0px 6px #e16d65;
+}
+
+/*sección backend*/
+#donut,
+#graph,
+#extra
+
+/*selectores agrupados*/
+    {
+    box-shadow: 0px 0px 6px #707070;
+    border-radius: 16px;
+}
+
+#donut:hover,
+#graph:hover,
+#extra:hover {
+    box-shadow: 0px 0px 6px #e16d65;
+
+}
+
+#donut {
+    width: 290px;
+    height: 366px;
+    padding: 20px;
+}
+
+#donut h2 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#cifrabig {
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+}
+
+#graph {
+    width: 580px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.pill {
+    background-color: #e16d65;
+    color: aliceblue;
+    border-radius: 16px;
+    font-size: 14px;
+    padding: 3px 8px;
+}
+
+.cifrasmall {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin: 10px 0px;
+}
+
+#extra {
+    width: 580px;
+    height: 150px;
+    margin-top: 16px;
+}
+
+footer {
+    height: 110px;
+    text-align: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+footer nav {
+    line-height: 60px;
+}
+
+footer a img {
+    width: 20px;
+    opacity: .5;
+}
+
+footer a img:hover {
+    opacity: 1;
+}
+
+footer nav a {
+    padding: 10px;
+}
